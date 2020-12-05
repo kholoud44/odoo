@@ -2044,3 +2044,5 @@ ModuleNotFoundError: No module named 'html2text'
 2020-12-05 09:54:18,482 920 INFO one odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
 2020-12-05 09:54:18,505 920 INFO one odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
 2020-12-05 09:54:18,683 920 INFO one odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2020-12-05 10:34:46,849 920 INFO ? odoo.service.server: Initiating shutdown 
+2020-12-05 10:34:46,898 920 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 

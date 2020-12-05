@@ -12,3 +12,22 @@
 2020-12-05 11:48:30.779 EET [2100] LOG:  using stale statistics instead of current ones because stats collector is not responding
 2020-12-05 11:49:30.798 EET [2100] LOG:  using stale statistics instead of current ones because stats collector is not responding
 2020-12-05 11:51:07.578 EET [2100] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-12-05 12:34:50.399 EET [7044] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-12-05 12:34:50.474 EET [7460] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-12-05 12:34:50.515 EET [1564] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-12-05 12:34:50.541 EET [3912] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-12-05 12:34:50.562 EET [8336] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-12-05 12:34:51.003 EET [3788] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-12-05 12:34:51.044 EET [5560] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-12-05 12:35:17.438 EET [6588] LOG:  received fast shutdown request
+2020-12-05 12:35:17.521 EET [6588] LOG:  aborting any active transactions
+2020-12-05 12:35:17.698 EET [6588] LOG:  background worker "logical replication launcher" (PID 6544) exited with exit code 1
+2020-12-05 12:35:17.749 EET [1092] LOG:  shutting down
+2020-12-05 12:35:18.029 EET [6588] LOG:  database system is shut down
