@@ -1,0 +1,14 @@
+2020-12-03 14:43:37.608 EET [7460] ERROR:  could not obtain lock on row in relation "ir_cron"
+2020-12-03 14:43:37.608 EET [7460] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=1
+	                                       FOR UPDATE NOWAIT
+2020-12-05 11:32:31.738 EET [2100] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-12-05 11:46:30.780 EET [2100] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-12-05 11:47:30.753 EET [2100] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-12-05 11:48:30.779 EET [2100] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-12-05 11:49:30.798 EET [2100] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-12-05 11:51:07.578 EET [2100] LOG:  using stale statistics instead of current ones because stats collector is not responding
